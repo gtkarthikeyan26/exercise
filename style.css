@@ -1,0 +1,48 @@
+/* Style for the form container */
+form {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+}
+/* Style for the h2 element */
+h1,h2 {
+    text-align: center; /* Center the text */
+    color: #333; /* Dark gray color for the text */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Bold text */
+}
+
+/* Style for form labels */
+form label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 8px; /* Space below labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+/* Style for form inputs */
+form input[type="text"],
+form input[type="email"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+/* Style for submit button */
+form button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
